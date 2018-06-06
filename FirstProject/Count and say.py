@@ -20,13 +20,22 @@ Example 2:
 
 Input: 4
 Output: "1211"'''
+#
+# def countandsay(n):
+#     if n==1:
+#         print(n)
+#     for i in range(1,n):
+#         counter = '1'
+#         counter = counter + 1
+#     print(counter, 1)
+# countandsay(3)
+n = 4;
+counter = 0
+for i in range(0, n):
+    #This is a O(1) expression
+    break
 
-def countandsay(n):
-    if n==1:
-        print(n)
-    for i in range(1,n):
-        counter = '1'
-        counter = counter + 1
-    print(counter, 1)
-countandsay(3)
+
+print("Counter is", counter)
+#Time complexity = O(n)
 
