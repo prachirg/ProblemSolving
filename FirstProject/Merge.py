@@ -12,8 +12,7 @@ def merge(a_list, low, mid, high):
     j = mid+1
     k = low #apni hi duniya mein hai c
     while(i<=mid and j<=high):
-        if a_list[i]<=\
-                a_list[j]:
+        if a_list[i]<=a_list[j]:
             c[k]=a_list[i]
             k+=1
             i+=1
